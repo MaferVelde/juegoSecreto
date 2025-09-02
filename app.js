@@ -1,4 +1,4 @@
-let numeroSecreto = 0;;
+let numeroSecreto = 0;
 let intentos = 0;
 let listaNumerosSorteados = [];
 let numeroMaximo = 10;
@@ -68,5 +68,6 @@ function reiniciarJuego() {
     //deshablitirar el botón de nuevo juego
     document.querySelector('#reiniciar').setAttribute('disabled','true');
 }
+
 
 condicionesIniciales();
